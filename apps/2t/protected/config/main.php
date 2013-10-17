@@ -34,18 +34,20 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-		'db'=>array(
-			'connectionString' => 'sqlite:protected/data/blog.db',
-			'tablePrefix' => 'tbl_',
-		),
 		'mongodb' => array(
 			'class'            => 'EMongoDB',
 			'connectionString' => 'mongodb://localhost',
-			'dbName'           => 'myDatabaseName',
+			'dbName'           => '2t',
 			'fsyncFlag'        => true,
 			'safeFlag'         => true,
 			'useCursor'        => false
 		),
+
+		// 'db'=>array(
+		// 	'connectionString' => 'sqlite:protected/data/blog.db',
+		// 	'tablePrefix' => 'tbl_',
+		// ),
+		
 		// uncomment the following to use a MySQL database
 		/*
 		'db'=>array(
